@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.principal{
+    justify-content: center;
+}
+
+.principal img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.botoes button{
+    width: 100px;
+    padding: 5px;
+    font-size: 15px;
+}
